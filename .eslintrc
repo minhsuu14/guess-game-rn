@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "airbnb-base",
+    "react",
+    "prettier"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "rules": {
+    "no-use-before-define":["error", { "functions": true, "classes": true, "variables": false }],
+    "arrow-body-style":"off"
+  }
+}
